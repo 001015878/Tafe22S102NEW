@@ -48,5 +48,15 @@ namespace Calculator
 			monthlyInterestRateTextBox.Text = monthlyInterestRate.ToString("0.00##");
 			monthlyRepaymentTextBox.Text = monthlyRepayment.ToString("C");
 		}
+
+		private void calculateButton_Click_1(object sender, RoutedEventArgs e)
+		{
+
+		}
+
+		private void exitButton_Click(object sender, RoutedEventArgs e)
+		{
+			this.Frame.Navigate(typeof(Calculator.MainMenu));
+		}
 	}
 }
