@@ -36,6 +36,11 @@ namespace Calculator
 		{
 			this.Frame.Navigate(typeof(Calculator.currencyConversion));
 		}
+		
+		private  void tripCalcButton_Click(object sender, RoutedEventArgs e)
+		{
+			tripCalcTextBlock.Text = "...";
+		}
 	}
 	
 }
